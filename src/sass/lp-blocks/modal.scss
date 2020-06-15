@@ -1,0 +1,82 @@
+.modal {
+    display: none;   
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;  
+    overflow-y: auto;
+    background-color: rgba(247, 247, 247, 0.9);
+    z-index: 1010;
+}
+
+.modal__dialog {
+    margin: 50px auto;
+    padding: 20px;
+    width: 600px;
+    max-width: 100%;
+    position: relative;
+    // background-color: #e57828;
+    background-image: url(/images/bg/introduction-bg-min.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    // border: 1px solid #e57828;
+    box-shadow: 0px 3px 5px 0px rgba(1, 1, 1, 0.5);
+}
+
+.btn-close {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 16px;
+    height: 16px;
+    background-image: url('/images/btn-close.png');
+    cursor: pointer;
+}
+
+.modal__form {
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+}
+
+.input {
+    padding: 0px 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ffffff;
+}
+
+.modal__input {
+    margin-bottom: 20px;
+}
+
+.form__btn {
+    margin-bottom: 10px;
+    width: 320px;
+    max-width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Solomon Semi Bold';
+    font-size: 20px;
+    background-color: rgb(66, 183, 42);
+    border-radius: 50px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-text_white {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.body_fixed {
+    overflow: hidden;
+}

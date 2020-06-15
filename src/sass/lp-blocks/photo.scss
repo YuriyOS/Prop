@@ -1,0 +1,49 @@
+.photo__title {
+    margin-bottom: 24px;
+}
+.photo__stamp {
+    margin: 0 auto 24px;
+    display: block;
+}
+
+.photo__slider .slick-track {
+     margin: 0 auto;
+    //  width: 1000px;
+     max-width: 100%;
+    //  position: relative;
+
+  @media (min-width: $screen_pc) {
+    margin: 0 auto;
+    // flex: 0 0 1140px;
+
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+  }
+    
+}
+
+.photo__slider {
+    margin: 0 auto;
+    width: 1140px;
+    
+}
+
+.photo__item {
+    float: none;
+}
+
+.photo__slider .plans_dots-style {
+    width: 150px; 
+    
+}
+
+.photo__img {
+    width: 100%;
+
+  @media (min-width: $screen_pc) {
+    margin: 0px;
+    width: 360px;
+}
+    
+}

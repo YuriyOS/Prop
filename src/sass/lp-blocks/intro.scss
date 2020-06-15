@@ -1,0 +1,109 @@
+.intro {
+  padding: 200px 0px 50px;
+  text-align: center;
+  background-image: url(/images/bg/intro-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    padding: 250px 0px 50px;
+  }
+
+  @media (min-width: 1140px) {
+    padding: 320px 0px 70px;
+  }
+}
+
+.advantages {
+  padding: 0px;
+  color: #ffffff;
+
+  @media (min-width: 768px) {
+    margin: 0 auto 20px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 1140px) {
+    width: 1140px;
+    margin-bottom: 98px;
+  }
+}
+
+.advantages__item {
+  margin: 0 auto 30px;
+  width: 262px;
+  max-width: 100%;
+}
+
+.advantages__icon {
+  margin-bottom: 10px;
+}
+
+.advantages__text {
+  margin: 0px;
+}
+
+.action__call {
+  margin: 0px 0px 20px;
+  color: #ffffff;
+
+  @media (min-width: 768px) {
+    margin: 0px 0px 32px;
+  }
+}
+
+
+.action__btn {
+  width: 320px;
+  max-width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Solomon Semi Bold';
+  font-size: 20px;
+  background-color: rgb(66, 183, 42);
+  border-radius: 50px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.action__btn_margin_bottom {
+  margin-bottom: 20px;
+}
+
+.action__btn_arrow {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  @media (min-width: 768px) {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -14px;
+      right: -94px;
+      display: block;
+      width: 72px;
+      height: 50px;
+      background-image: url(/images/arrow-btn.png);
+    }
+  }
+}
+
+.action__subtext {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: 768px) {
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+  }
+}
